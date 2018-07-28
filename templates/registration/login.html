@@ -25,5 +25,15 @@ LOGIN
         </div>
         <input type="submit" class="btn btn-primary btn-lg" value="Login">
     </form>
+    <p style="margin-top: 10px">Forget your password?
+        <a href="{% url 'pwd_reset:password_reset_recover' %}">
+            reset password
+        </a>
+    </p>
+    <p style="margin-top: 10px">If you had not a usename,
+        <a href="{% url 'account:user_register' %}">
+            Register to be a user
+        </a>,please
+    </p>
 </div>
 {% endblock %}
