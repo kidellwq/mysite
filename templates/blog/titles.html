@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+blog titles
+{% endblock %}
+
+{% block content %}
+    <div class="row text-center vertical-middle-sm">
+        <h1>我的博客</h1>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-8">
+            <ul>
+                {% for blog in blogs %}
+                    <li><a href="{{ blog.id }}">{{ blog.title }}</a></li>
+                {% endfor %}             
+            </ul>
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <h2>呵呵</h2>
+            <p>今天天气真晴朗，处处好风光，蜜蜂忙，胡蝶儿忙</p>
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1532684166850&di=ab9ec8d15b90c7523bbf4f8c2384daa4&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D123720663%2C643028964%26fm%3D214%26gp%3D0.jpg"
+                 alt="小美女" width="300px">
+        </div>
+    </div>
+{% endblock %}
