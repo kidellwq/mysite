@@ -16,8 +16,8 @@
         {% endblock %}
     </div>
     {% include 'footer.html' %}
-    {% block javascript %}{% endblock %}
     <script src="{% static 'js/jquery.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
- </body>
+    {% block javascript %}{% endblock %}
+</body>
 </html>

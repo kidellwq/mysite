@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db" uuid="e35079f1-2834-4c41-8a07-12e45cd7346d">
+    <data-source source="LOCAL" name="db" uuid="8d79486c-ecc3-4b1f-b90c-bd07bc099c4f">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:E:\Project\app\mysite\db.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\Administrator\Projects\mysite\db.sqlite3</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
